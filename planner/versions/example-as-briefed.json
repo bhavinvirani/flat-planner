@@ -1,0 +1,1245 @@
+{
+  "schemaVersion": 1,
+  "slug": "example-as-briefed",
+  "name": "Example: As briefed",
+  "date": "2026-11-20",
+  "note": "The flat as the brief asks: elders in bedroom 3, bedroom 1 a prayer room with a seat and the desk. Bedroom 1's toilet is a bath only, with no WC; its wall stays where the builder draws it, as moving it is still undecided. Toilet fittings sit where they usually go: the builder's plumbing drawing is not to hand. The tool does not check the toilet rules yet, so \"No problems\" in a toilet does not cover them. The elders' toilet door opens inward, as the builder draws it, so the grab bar beside the WC is only 1'1\" and a person seated cannot pull up on it; a door that opens outward or slides would fit a 3'6\" bar (ask the builder). The common toilet has no outside wall: its fan needs a pipe for the air (a duct) to the nearest shaft, the open channel the builder leaves for pipes.",
+  "state": {
+    "schemaVersion": 1,
+    "picks": {
+      "bedroom-2-layout": "toilet-wall",
+      "bedroom-2-bed": "queen"
+    },
+    "moves": {},
+    "added": {
+      "own-sofa-1": {
+        "type": "sofa",
+        "anchor": {
+          "face": "living/x.living-l/0",
+          "from": "high",
+          "along_ft": 1.5,
+          "off_ft": 0,
+          "turn": 0
+        },
+        "size": {
+          "seats": "three",
+          "fabric": "beige"
+        }
+      },
+      "own-coffee-table-1": {
+        "type": "coffee-table",
+        "anchor": {
+          "face": "living/x.living-l/0",
+          "from": "high",
+          "along_ft": 3,
+          "off_ft": 4.3333,
+          "turn": 0
+        }
+      },
+      "own-pouf-1": {
+        "type": "pouf",
+        "anchor": {
+          "face": "living/x.living-l/0",
+          "from": "low",
+          "along_ft": 7.996,
+          "off_ft": 3.5,
+          "turn": 0
+        }
+      },
+      "own-rug-1": {
+        "type": "rug",
+        "anchor": {
+          "face": "living/x.living-l/0",
+          "from": "high",
+          "along_ft": 1.5,
+          "off_ft": 1.5,
+          "turn": 0
+        },
+        "size": {
+          "width_ft": 7,
+          "depth_ft": 5.5,
+          "colour": "oat"
+        }
+      },
+      "own-tv-unit-1": {
+        "type": "tv-unit",
+        "anchor": {
+          "face": "living/x.party-l/0",
+          "from": "high",
+          "along_ft": 2,
+          "off_ft": 0,
+          "turn": 0
+        },
+        "size": {
+          "tv": "43-inch",
+          "width_ft": 6,
+          "body": "oak"
+        }
+      },
+      "own-plant-1": {
+        "type": "plant",
+        "anchor": {
+          "face": "living/x.party-l/0",
+          "from": "high",
+          "along_ft": 0.5,
+          "off_ft": 0,
+          "turn": 0
+        }
+      },
+      "own-shoe-cabinet-1": {
+        "type": "shoe-cabinet",
+        "anchor": {
+          "face": "niche-shoe-rack/x.shoe-l/0",
+          "from": "low",
+          "along_ft": 0.25,
+          "off_ft": 0,
+          "turn": 0
+        },
+        "size": {
+          "width_ft": 4,
+          "depth_ft": 1
+        }
+      },
+      "own-kitchen-base-1": {
+        "type": "kitchen-base",
+        "anchor": {
+          "face": "kitchen-dining/y.0/1",
+          "from": "low",
+          "along_ft": 0,
+          "off_ft": 0,
+          "turn": 0
+        },
+        "size": {
+          "width_ft": 9.5
+        },
+        "name": "the builder's granite counter"
+      },
+      "own-wall-cabinet-1": {
+        "type": "wall-cabinet",
+        "anchor": {
+          "face": "kitchen-dining/y.0/1",
+          "from": "low",
+          "along_ft": 4.3333,
+          "off_ft": 0,
+          "turn": 0
+        },
+        "size": {
+          "width_ft": 1.5,
+          "body": "greige"
+        },
+        "name": "the cupboard between the window and the chimney"
+      },
+      "own-chimney-1": {
+        "type": "chimney",
+        "anchor": {
+          "face": "kitchen-dining/y.0/1",
+          "from": "high",
+          "along_ft": 5.6121,
+          "off_ft": 0,
+          "turn": 0
+        },
+        "name": "the chimney over the hob"
+      },
+      "own-wall-cabinet-2": {
+        "type": "wall-cabinet",
+        "anchor": {
+          "face": "kitchen-dining/y.0/1",
+          "from": "high",
+          "along_ft": 3.9389,
+          "off_ft": 0,
+          "turn": 0
+        },
+        "size": {
+          "width_ft": 1.6667,
+          "body": "greige"
+        },
+        "name": "the cupboard beyond the chimney"
+      },
+      "own-fridge-1": {
+        "type": "fridge",
+        "anchor": {
+          "face": "kitchen-dining/x.kitchen-r/0",
+          "from": "low",
+          "along_ft": 0,
+          "off_ft": 0,
+          "turn": 0
+        }
+      },
+      "own-dining-table-1": {
+        "type": "dining-table",
+        "anchor": {
+          "face": "kitchen-dining/y.kitchen-b/0",
+          "from": "high",
+          "along_ft": 4.2833,
+          "off_ft": 3.5,
+          "turn": 0
+        },
+        "size": {
+          "seats": "six"
+        }
+      },
+      "own-crockery-unit-1": {
+        "type": "crockery-unit",
+        "anchor": {
+          "face": "kitchen-dining/y.kitchen-b/0",
+          "from": "high",
+          "along_ft": 1.5,
+          "off_ft": 0,
+          "turn": 0
+        },
+        "size": {
+          "width_ft": 4.5
+        }
+      },
+      "own-mandir-unit-1": {
+        "type": "mandir-unit",
+        "anchor": {
+          "face": "kitchen-dining/x.kitchen-l/0",
+          "from": "low",
+          "along_ft": 3.5,
+          "off_ft": 0,
+          "turn": 0
+        },
+        "size": {
+          "size": "small",
+          "body": "oak"
+        },
+        "name": "the small mandir on the dining wall"
+      },
+      "own-tall-unit-1": {
+        "type": "tall-unit",
+        "anchor": {
+          "face": "store/y.0/0",
+          "from": "high",
+          "along_ft": 0,
+          "off_ft": 0,
+          "turn": 0
+        },
+        "name": "the larder by the far wall"
+      },
+      "own-tall-unit-2": {
+        "type": "tall-unit",
+        "anchor": {
+          "face": "store/y.0/0",
+          "from": "low",
+          "along_ft": 1.0306,
+          "off_ft": 0,
+          "turn": 0
+        },
+        "name": "the larder by the door"
+      },
+      "own-washing-machine-1": {
+        "type": "washing-machine",
+        "anchor": {
+          "face": "wash/y.wash-t/0",
+          "from": "low",
+          "along_ft": 0.25,
+          "off_ft": 0,
+          "turn": 0
+        }
+      },
+      "own-tall-unit-3": {
+        "type": "tall-unit",
+        "anchor": {
+          "face": "wash/y.wash-t/0",
+          "from": "low",
+          "along_ft": 2.5,
+          "off_ft": 0,
+          "turn": 0
+        },
+        "size": {
+          "depth_ft": 1.5,
+          "colour": "white"
+        },
+        "name": "the cleaning cupboard"
+      },
+      "own-wardrobe-1": {
+        "type": "wardrobe",
+        "anchor": {
+          "face": "niche-bedroom-1/y.balcony-b/0",
+          "from": "low",
+          "along_ft": 0,
+          "turn": 0,
+          "fit": {}
+        },
+        "size": {
+          "door": "hinged",
+          "loft": "loft"
+        },
+        "name": "the bedding store in the recess"
+      },
+      "own-mandir-unit-2": {
+        "type": "mandir-unit",
+        "anchor": {
+          "face": "bedroom-1/x.bed1-r/0",
+          "from": "low",
+          "along_ft": 0.0833,
+          "off_ft": 0,
+          "turn": 0
+        },
+        "size": {
+          "size": "large",
+          "body": "oak"
+        },
+        "name": "the mandir"
+      },
+      "own-armchair-1": {
+        "type": "armchair",
+        "anchor": {
+          "face": "bedroom-1/x.bed1-l/0",
+          "from": "low",
+          "along_ft": 0.0833,
+          "off_ft": 0,
+          "turn": 0
+        },
+        "size": {
+          "width_ft": 2.25,
+          "fabric": "sage"
+        },
+        "name": "the seat facing the mandir"
+      },
+      "own-study-desk-1": {
+        "type": "study-desk",
+        "anchor": {
+          "face": "bedroom-1/y.bed1-t/0",
+          "from": "high",
+          "along_ft": 0.25,
+          "off_ft": 0,
+          "turn": 0
+        }
+      },
+      "own-desk-chair-1": {
+        "type": "desk-chair",
+        "anchor": {
+          "face": "bedroom-1/y.bed-b/0",
+          "from": "high",
+          "along_ft": 1.0236,
+          "off_ft": 7.4779,
+          "turn": 0
+        }
+      },
+      "own-bed-1": {
+        "type": "bed",
+        "anchor": {
+          "face": "bedroom-3/y.bed3-b/0",
+          "from": "low",
+          "along_ft": 3.5833,
+          "off_ft": 0,
+          "turn": 0
+        },
+        "size": {
+          "mattress": "queen",
+          "bedding": "stone"
+        }
+      },
+      "own-side-table-1": {
+        "type": "side-table",
+        "anchor": {
+          "face": "bedroom-3/y.bed3-b/0",
+          "from": "high",
+          "along_ft": 3.0271,
+          "off_ft": 0,
+          "turn": 0
+        },
+        "size": {
+          "width_ft": 1.1667
+        }
+      },
+      "own-wardrobe-2": {
+        "type": "wardrobe",
+        "anchor": {
+          "face": "niche-bedroom-3/x.ledge-l/0",
+          "from": "low",
+          "along_ft": 0,
+          "turn": 0,
+          "fit": {}
+        },
+        "size": {
+          "door": "sliding",
+          "loft": "loft",
+          "body": "oak"
+        }
+      },
+      "own-chest-of-drawers-1": {
+        "type": "chest-of-drawers",
+        "anchor": {
+          "face": "bedroom-3/y.0/0",
+          "from": "high",
+          "along_ft": 0,
+          "off_ft": 0,
+          "turn": 0
+        },
+        "size": {
+          "body": "oak"
+        }
+      },
+      "own-armchair-2": {
+        "type": "armchair",
+        "anchor": {
+          "face": "balcony/y.balcony-b/0",
+          "from": "low",
+          "along_ft": 3,
+          "off_ft": 0,
+          "turn": 0
+        },
+        "size": {
+          "fabric": "rust"
+        }
+      },
+      "own-armchair-3": {
+        "type": "armchair",
+        "anchor": {
+          "face": "balcony/y.balcony-b/0",
+          "from": "high",
+          "along_ft": 5.4781,
+          "off_ft": 0,
+          "turn": 0
+        },
+        "size": {
+          "fabric": "rust"
+        }
+      },
+      "own-plant-2": {
+        "type": "plant",
+        "anchor": {
+          "face": "balcony/y.balcony-b/0",
+          "from": "low",
+          "along_ft": 0.5,
+          "off_ft": 0,
+          "turn": 0
+        },
+        "size": {
+          "size": "large"
+        }
+      },
+      "own-plant-3": {
+        "type": "plant",
+        "anchor": {
+          "face": "balcony/y.balcony-b/0",
+          "from": "high",
+          "along_ft": 0.5,
+          "off_ft": 0,
+          "turn": 0
+        },
+        "size": {
+          "size": "large"
+        }
+      },
+      "own-ceiling-fan-1": {
+        "type": "ceiling-fan",
+        "anchor": {
+          "face": "living/x.living-l/0",
+          "from": "high",
+          "along_ft": 2.75,
+          "off_ft": 5,
+          "turn": 0
+        },
+        "size": {
+          "colour": "white"
+        }
+      },
+      "own-ceiling-light-1": {
+        "type": "ceiling-light",
+        "anchor": {
+          "face": "living/x.living-l/0",
+          "from": "low",
+          "along_ft": 3.9167,
+          "off_ft": 6.3333,
+          "turn": 0
+        }
+      },
+      "own-ac-unit-1": {
+        "type": "ac-unit",
+        "anchor": {
+          "face": "living/y.living-t/0",
+          "from": "low",
+          "along_ft": 4.5,
+          "off_ft": 0,
+          "turn": 0
+        }
+      },
+      "own-hanging-light-1": {
+        "type": "hanging-light",
+        "anchor": {
+          "face": "kitchen-dining/y.kitchen-b/0",
+          "from": "high",
+          "along_ft": 5.8784,
+          "off_ft": 5.25,
+          "turn": 0
+        },
+        "size": {
+          "colour": "black"
+        },
+        "name": "the light over the table"
+      },
+      "own-ceiling-fan-2": {
+        "type": "ceiling-fan",
+        "anchor": {
+          "face": "kitchen-dining/y.0/1",
+          "from": "low",
+          "along_ft": 2.25,
+          "off_ft": 2.5,
+          "turn": 0
+        },
+        "size": {
+          "colour": "white"
+        }
+      },
+      "own-ceiling-light-2": {
+        "type": "ceiling-light",
+        "anchor": {
+          "face": "kitchen-dining/y.0/1",
+          "from": "high",
+          "along_ft": 4.3556,
+          "off_ft": 2.5,
+          "turn": 0
+        },
+        "name": "the kitchen light"
+      },
+      "own-ceiling-fan-3": {
+        "type": "ceiling-fan",
+        "anchor": {
+          "face": "bedroom-1/y.bed-b/0",
+          "from": "high",
+          "along_ft": 2.425,
+          "off_ft": 3.75,
+          "turn": 0
+        },
+        "size": {
+          "colour": "white"
+        }
+      },
+      "own-ceiling-light-3": {
+        "type": "ceiling-light",
+        "anchor": {
+          "face": "bedroom-1/y.bed-b/0",
+          "from": "high",
+          "along_ft": 1.5917,
+          "off_ft": 1.6667,
+          "turn": 0
+        }
+      },
+      "own-ac-unit-2": {
+        "type": "ac-unit",
+        "anchor": {
+          "face": "bedroom-1/x.bed1-l/0",
+          "from": "high",
+          "along_ft": 0.5,
+          "off_ft": 0,
+          "turn": 0
+        }
+      },
+      "own-ceiling-fan-4": {
+        "type": "ceiling-fan",
+        "anchor": {
+          "face": "bedroom-2/y.bed-b/0",
+          "from": "low",
+          "along_ft": 2.9167,
+          "off_ft": 3.75,
+          "turn": 0
+        },
+        "size": {
+          "colour": "white"
+        }
+      },
+      "own-ceiling-light-4": {
+        "type": "ceiling-light",
+        "anchor": {
+          "face": "bedroom-2/y.bed-b/0",
+          "from": "high",
+          "along_ft": 1.85,
+          "off_ft": 9.1667,
+          "turn": 0
+        }
+      },
+      "own-ac-unit-3": {
+        "type": "ac-unit",
+        "anchor": {
+          "face": "bedroom-2/x.bed-r/0",
+          "from": "high",
+          "along_ft": 4,
+          "off_ft": 0,
+          "turn": 0
+        }
+      },
+      "own-ceiling-fan-5": {
+        "type": "ceiling-fan",
+        "anchor": {
+          "face": "bedroom-3/y.bed3-b/0",
+          "from": "low",
+          "along_ft": 4.5,
+          "off_ft": 3.5,
+          "turn": 0
+        },
+        "size": {
+          "colour": "white"
+        }
+      },
+      "own-ceiling-light-5": {
+        "type": "ceiling-light",
+        "anchor": {
+          "face": "bedroom-3/y.bed3-b/0",
+          "from": "high",
+          "along_ft": 1.9438,
+          "off_ft": 7.3333,
+          "turn": 0
+        }
+      },
+      "own-ac-unit-4": {
+        "type": "ac-unit",
+        "anchor": {
+          "face": "bedroom-3/y.0/0",
+          "from": "high",
+          "along_ft": 4.3736,
+          "off_ft": 0,
+          "turn": 0
+        }
+      },
+      "own-mirror-1": {
+        "type": "mirror",
+        "anchor": {
+          "face": "bedroom-3/y.0/0",
+          "from": "high",
+          "along_ft": 0.75,
+          "off_ft": 0,
+          "turn": 0
+        },
+        "size": {
+          "frame": "oak"
+        }
+      },
+      "own-ceiling-light-6": {
+        "type": "ceiling-light",
+        "anchor": {
+          "face": "foyer/x.party-l/0",
+          "from": "high",
+          "along_ft": 1.7508,
+          "off_ft": 1.3333,
+          "turn": 0
+        }
+      },
+      "own-ceiling-light-7": {
+        "type": "ceiling-light",
+        "anchor": {
+          "face": "wash/y.wash-t/0",
+          "from": "high",
+          "along_ft": 3.7313,
+          "off_ft": 1.3333,
+          "turn": 0
+        }
+      },
+      "own-ceiling-light-8": {
+        "type": "ceiling-light",
+        "anchor": {
+          "face": "balcony/y.balcony-b/0",
+          "from": "low",
+          "along_ft": 6.1667,
+          "off_ft": 2.0833,
+          "turn": 0
+        }
+      },
+      "own-picture-1": {
+        "type": "picture",
+        "anchor": {
+          "face": "living/x.living-l/0",
+          "from": "high",
+          "along_ft": 3.5,
+          "off_ft": 0,
+          "turn": 0
+        },
+        "size": {
+          "set": "three",
+          "frame": "oak"
+        },
+        "name": "the pictures over the sofa"
+      },
+      "own-picture-2": {
+        "type": "picture",
+        "anchor": {
+          "face": "bedroom-3/y.bed3-b/0",
+          "from": "low",
+          "along_ft": 5.25,
+          "off_ft": 0,
+          "turn": 0
+        },
+        "size": {
+          "size": "large",
+          "frame": "oak"
+        },
+        "name": "the picture over the bed"
+      },
+      "own-curtain-1": {
+        "type": "curtain",
+        "anchor": {
+          "face": "living/y.living-b/0",
+          "from": "low",
+          "along_ft": 0,
+          "off_ft": 0,
+          "turn": 0
+        },
+        "size": {
+          "kind": "pair",
+          "colour": "oat",
+          "width_ft": 14.0778
+        },
+        "name": "the curtains at the balcony door"
+      },
+      "own-curtain-2": {
+        "type": "curtain",
+        "anchor": {
+          "face": "bedroom-1/y.bed-b/0",
+          "from": "high",
+          "along_ft": 0,
+          "off_ft": 0,
+          "turn": 0
+        },
+        "size": {
+          "kind": "sheer",
+          "colour": "oat",
+          "width_ft": 4.7625
+        },
+        "name": "the sheer at the window"
+      },
+      "own-curtain-3": {
+        "type": "curtain",
+        "anchor": {
+          "face": "bedroom-2/y.bed-b/0",
+          "from": "high",
+          "along_ft": 0,
+          "off_ft": 0,
+          "turn": 0
+        },
+        "size": {
+          "kind": "pair",
+          "colour": "oat",
+          "width_ft": 7.8041
+        },
+        "name": "the curtains at the long window"
+      },
+      "own-curtain-4": {
+        "type": "curtain",
+        "anchor": {
+          "face": "bedroom-2/x.0/0",
+          "from": "low",
+          "along_ft": 0,
+          "off_ft": 0,
+          "turn": 0
+        },
+        "size": {
+          "kind": "pair",
+          "colour": "oat",
+          "width_ft": 4.3451
+        },
+        "name": "the curtains at the short window"
+      },
+      "own-curtain-5": {
+        "type": "curtain",
+        "anchor": {
+          "face": "bedroom-3/x.0/0",
+          "from": "low",
+          "along_ft": 0,
+          "off_ft": 0,
+          "turn": 0
+        },
+        "size": {
+          "kind": "pair",
+          "colour": "oat",
+          "width_ft": 5.859
+        },
+        "name": "the curtains at the window"
+      },
+      "own-shower-glass-1": {
+        "type": "shower-glass",
+        "anchor": {
+          "face": "toilet-bedroom-1/y.bed-b/0",
+          "from": "low",
+          "along_ft": 0,
+          "off_ft": 3,
+          "turn": 0
+        },
+        "size": {
+          "width_ft": 2
+        },
+        "name": "the shower glass"
+      },
+      "own-shower-set-1": {
+        "type": "shower-set",
+        "anchor": {
+          "face": "toilet-bedroom-1/x.kitchen-l/0",
+          "from": "high",
+          "along_ft": 0.718,
+          "off_ft": 0,
+          "turn": 0
+        },
+        "name": "the shower"
+      },
+      "own-floor-drain-1": {
+        "type": "floor-drain",
+        "anchor": {
+          "face": "toilet-bedroom-1/y.bed-b/0",
+          "from": "low",
+          "along_ft": 1.25,
+          "off_ft": 1,
+          "turn": 0
+        },
+        "name": "the shower drain"
+      },
+      "own-vanity-1": {
+        "type": "vanity",
+        "anchor": {
+          "face": "toilet-bedroom-1/x.kitchen-l/0",
+          "from": "low",
+          "along_ft": 0,
+          "off_ft": 0,
+          "turn": 0
+        },
+        "size": {
+          "width_ft": 1.4792,
+          "depth_ft": 1.3125,
+          "colour": "white"
+        },
+        "name": "the basin"
+      },
+      "own-mirror-cabinet-1": {
+        "type": "mirror-cabinet",
+        "anchor": {
+          "face": "toilet-bedroom-1/x.kitchen-l/0",
+          "from": "low",
+          "along_ft": 0,
+          "off_ft": 0,
+          "turn": 0
+        },
+        "size": {
+          "width_ft": 1.4792
+        },
+        "name": "the mirror over the basin"
+      },
+      "own-towel-rail-1": {
+        "type": "towel-rail",
+        "anchor": {
+          "face": "toilet-bedroom-1/x.kitchen-l/0",
+          "from": "low",
+          "along_ft": 2,
+          "off_ft": 0,
+          "turn": 0
+        },
+        "size": {
+          "width_ft": 1
+        },
+        "name": "the towel rail, where the WC was"
+      },
+      "own-geyser-1": {
+        "type": "geyser",
+        "anchor": {
+          "face": "toilet-bedroom-1/x.kitchen-l/0",
+          "from": "low",
+          "along_ft": 1.75,
+          "off_ft": 0,
+          "turn": 0
+        },
+        "size": {
+          "mount_ft": 6.6667
+        },
+        "name": "the water heater, on the shower's wall"
+      },
+      "own-exhaust-fan-1": {
+        "type": "exhaust-fan",
+        "anchor": {
+          "face": "toilet-bedroom-1/y.bed-b/0",
+          "from": "high",
+          "along_ft": 1.1247,
+          "off_ft": 0,
+          "turn": 0
+        },
+        "name": "the exhaust fan beside the window"
+      },
+      "own-shower-glass-2": {
+        "type": "shower-glass",
+        "anchor": {
+          "face": "toilet-bedroom-2/x.0/0",
+          "from": "low",
+          "along_ft": 0,
+          "off_ft": 3,
+          "turn": 0
+        },
+        "size": {
+          "width_ft": 2
+        },
+        "name": "the shower glass"
+      },
+      "own-shower-set-2": {
+        "type": "shower-set",
+        "anchor": {
+          "face": "toilet-bedroom-2/y.toilet2-t/0",
+          "from": "low",
+          "along_ft": 1,
+          "off_ft": 0,
+          "turn": 0
+        },
+        "name": "the shower"
+      },
+      "own-floor-drain-2": {
+        "type": "floor-drain",
+        "anchor": {
+          "face": "toilet-bedroom-2/y.toilet2-t/0",
+          "from": "low",
+          "along_ft": 1.25,
+          "off_ft": 1.25,
+          "turn": 0
+        },
+        "name": "the shower drain"
+      },
+      "own-wc-1": {
+        "type": "wc",
+        "anchor": {
+          "face": "toilet-bedroom-2/y.toilet2-t/0",
+          "from": "low",
+          "along_ft": 3.9167,
+          "off_ft": 0,
+          "turn": 0
+        },
+        "name": "the WC"
+      },
+      "own-geyser-2": {
+        "type": "geyser",
+        "anchor": {
+          "face": "toilet-bedroom-2/y.toilet2-t/0",
+          "from": "high",
+          "along_ft": 2.6284,
+          "off_ft": 0,
+          "turn": 0
+        },
+        "size": {
+          "mount_ft": 6.6667
+        },
+        "name": "the water heater"
+      },
+      "own-exhaust-fan-2": {
+        "type": "exhaust-fan",
+        "anchor": {
+          "face": "toilet-bedroom-2/x.0/0",
+          "from": "high",
+          "along_ft": 0.5587,
+          "off_ft": 0,
+          "turn": 0
+        },
+        "name": "the exhaust fan beside the window"
+      },
+      "own-vanity-2": {
+        "type": "vanity",
+        "anchor": {
+          "face": "toilet-bedroom-2/y.toilet2-b/0",
+          "from": "high",
+          "along_ft": 0,
+          "off_ft": 0,
+          "turn": 0
+        },
+        "size": {
+          "width": "60",
+          "depth_ft": 1.5,
+          "colour": "white"
+        },
+        "name": "the basin"
+      },
+      "own-mirror-cabinet-2": {
+        "type": "mirror-cabinet",
+        "anchor": {
+          "face": "toilet-bedroom-2/y.toilet2-b/0",
+          "from": "high",
+          "along_ft": 0,
+          "off_ft": 0,
+          "turn": 0
+        },
+        "name": "the mirror over the basin"
+      },
+      "own-towel-rail-2": {
+        "type": "towel-rail",
+        "anchor": {
+          "face": "toilet-bedroom-2/y.toilet2-b/0",
+          "from": "high",
+          "along_ft": 2.6015,
+          "off_ft": 0,
+          "turn": 0
+        },
+        "name": "the towel rail"
+      },
+      "own-shower-glass-3": {
+        "type": "shower-glass",
+        "anchor": {
+          "face": "toilet-bedroom-3/x.toilet3-r/0",
+          "from": "low",
+          "along_ft": 0,
+          "off_ft": 3.3167,
+          "turn": 0
+        },
+        "size": {
+          "width_ft": 2
+        },
+        "name": "the shower glass"
+      },
+      "own-shower-set-3": {
+        "type": "shower-set",
+        "anchor": {
+          "face": "toilet-bedroom-3/x.toilet3-r/0",
+          "from": "low",
+          "along_ft": 0.5,
+          "off_ft": 0,
+          "turn": 0
+        },
+        "name": "the shower"
+      },
+      "own-floor-drain-3": {
+        "type": "floor-drain",
+        "anchor": {
+          "face": "toilet-bedroom-3/x.toilet3-r/0",
+          "from": "high",
+          "along_ft": 1,
+          "off_ft": 1,
+          "turn": 0
+        },
+        "name": "the shower drain"
+      },
+      "own-vanity-3": {
+        "type": "vanity",
+        "anchor": {
+          "face": "toilet-bedroom-3/y.wash-t/0",
+          "from": "low",
+          "along_ft": 2.5208,
+          "off_ft": 0,
+          "turn": 0
+        },
+        "size": {
+          "width_ft": 1.4792,
+          "depth_ft": 1.3125,
+          "colour": "white"
+        },
+        "name": "the basin"
+      },
+      "own-mirror-cabinet-3": {
+        "type": "mirror-cabinet",
+        "anchor": {
+          "face": "toilet-bedroom-3/y.wash-t/0",
+          "from": "low",
+          "along_ft": 2.5208,
+          "off_ft": 0,
+          "turn": 0
+        },
+        "size": {
+          "width_ft": 1.4792
+        },
+        "name": "the mirror over the basin"
+      },
+      "own-wc-2": {
+        "type": "wc",
+        "anchor": {
+          "face": "toilet-bedroom-3/y.wash-t/0",
+          "from": "low",
+          "along_ft": 0.6875,
+          "off_ft": 0,
+          "turn": 0
+        },
+        "name": "the WC"
+      },
+      "own-towel-rail-3": {
+        "type": "towel-rail",
+        "anchor": {
+          "face": "toilet-bedroom-3/x.toilet3-r/0",
+          "from": "high",
+          "along_ft": 0,
+          "off_ft": 0,
+          "turn": 0
+        },
+        "size": {
+          "width_ft": 1
+        },
+        "name": "the towel rail by the shower's grab bar"
+      },
+      "own-geyser-3": {
+        "type": "geyser",
+        "anchor": {
+          "face": "toilet-bedroom-3/y.entry-out/0",
+          "from": "low",
+          "along_ft": 2.75,
+          "off_ft": 0,
+          "turn": 0
+        },
+        "size": {
+          "mount_ft": 6.6667
+        },
+        "name": "the water heater"
+      },
+      "own-grab-bar-1": {
+        "type": "grab-bar",
+        "anchor": {
+          "face": "toilet-bedroom-3/x.col-bed3-toilet-r/0",
+          "from": "low",
+          "along_ft": 0.3333,
+          "off_ft": 0,
+          "turn": 0
+        },
+        "size": {
+          "form": "l-left",
+          "width_ft": 1.0833
+        },
+        "name": "the grab bar beside the WC"
+      },
+      "own-grab-bar-2": {
+        "type": "grab-bar",
+        "anchor": {
+          "face": "toilet-bedroom-3/x.toilet3-r/0",
+          "from": "high",
+          "along_ft": 1.0778,
+          "off_ft": 0,
+          "turn": 0
+        },
+        "size": {
+          "form": "straight"
+        },
+        "name": "the grab bar by the shower"
+      },
+      "own-shower-seat-1": {
+        "type": "shower-seat",
+        "anchor": {
+          "face": "toilet-bedroom-3/y.wash-t/0",
+          "from": "high",
+          "along_ft": 0.0417,
+          "off_ft": 0,
+          "turn": 0
+        },
+        "size": {
+          "position": "down",
+          "width_ft": 1.375
+        },
+        "name": "the shower seat"
+      },
+      "own-exhaust-fan-3": {
+        "type": "exhaust-fan",
+        "anchor": {
+          "face": "toilet-bedroom-3/y.wash-t/0",
+          "from": "high",
+          "along_ft": 0.25,
+          "off_ft": 0,
+          "turn": 0
+        },
+        "name": "the exhaust fan beside the window"
+      },
+      "own-wc-3": {
+        "type": "wc",
+        "anchor": {
+          "face": "toilet-common/y.toiletc-b/0",
+          "from": "high",
+          "along_ft": 0.7083,
+          "off_ft": 0,
+          "turn": 0
+        },
+        "name": "the WC"
+      },
+      "own-floor-drain-4": {
+        "type": "floor-drain",
+        "anchor": {
+          "face": "toilet-common/y.toiletc-b/0",
+          "from": "low",
+          "along_ft": 0.75,
+          "off_ft": 0.75,
+          "turn": 0
+        },
+        "name": "the shower drain"
+      },
+      "own-shower-set-4": {
+        "type": "shower-set",
+        "anchor": {
+          "face": "toilet-common/x.kitchen-l/0",
+          "from": "high",
+          "along_ft": 0.5833,
+          "off_ft": 0,
+          "turn": 0
+        },
+        "name": "the shower"
+      },
+      "own-vanity-4": {
+        "type": "vanity",
+        "anchor": {
+          "face": "toilet-common/x.toilets-r/0",
+          "from": "low",
+          "along_ft": 0,
+          "off_ft": 0,
+          "turn": 0
+        },
+        "size": {
+          "width_ft": 1.4792,
+          "depth_ft": 1.3125,
+          "colour": "white"
+        },
+        "name": "the basin"
+      },
+      "own-mirror-cabinet-4": {
+        "type": "mirror-cabinet",
+        "anchor": {
+          "face": "toilet-common/x.toilets-r/0",
+          "from": "low",
+          "along_ft": 0,
+          "off_ft": 0,
+          "turn": 0
+        },
+        "size": {
+          "width_ft": 1.4792
+        },
+        "name": "the mirror over the basin"
+      },
+      "own-towel-rail-4": {
+        "type": "towel-rail",
+        "anchor": {
+          "face": "toilet-common/x.toilets-r/0",
+          "from": "low",
+          "along_ft": 2,
+          "off_ft": 0,
+          "turn": 0
+        },
+        "size": {
+          "width_ft": 1
+        },
+        "name": "the towel rail"
+      },
+      "own-geyser-4": {
+        "type": "geyser",
+        "anchor": {
+          "face": "toilet-common/x.toilets-r/0",
+          "from": "low",
+          "along_ft": 1.8333,
+          "off_ft": 0,
+          "turn": 0
+        },
+        "size": {
+          "mount_ft": 6.6667
+        },
+        "name": "the water heater"
+      },
+      "own-exhaust-fan-4": {
+        "type": "exhaust-fan",
+        "anchor": {
+          "face": "toilet-common/y.toiletc-b/0",
+          "from": "high",
+          "along_ft": 0.75,
+          "off_ft": 0,
+          "turn": 0
+        },
+        "name": "the exhaust fan over the WC, ducted to the shaft"
+      }
+    },
+    "look": {
+      "walls": {
+        "flat": "warm-white",
+        "living/x.party-l/0": "mushroom",
+        "bedroom-1/x.bed1-r/0": "sage",
+        "bedroom-2/y.bed2-t/0": "dusty-blue",
+        "bedroom-3/y.bed3-b/0": "terracotta",
+        "kitchen-dining/y.kitchen-b/0": "greige"
+      },
+      "floors": {
+        "flat": "beige-tile"
+      },
+      "palette": "warm-minimal"
+    }
+  },
+  "thumbnail": "example-as-briefed.png"
+}

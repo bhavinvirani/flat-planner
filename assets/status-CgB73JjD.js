@@ -1,0 +1,1 @@
+import{w as e}from"./index-GrryGlmi.js";import{t}from"./react-C-gXXpRf.js";var n=e({NOT_SAVING:()=>i,useSaveStatus:()=>r}),r=t()(()=>({saving:`on`,message:null,dropped:[]})),i=`Changes are not being saved.`;export{n,r,i as t};
